@@ -1,0 +1,3 @@
+#min hour mday month wday command
+*/10 * * * * python $HOME/Pictures/bing/handle_wallpaper.py -c
+0 0,9,12,15,18,21 * * * python $HOME/Pictures/bing/handle_wallpaper.py -d
