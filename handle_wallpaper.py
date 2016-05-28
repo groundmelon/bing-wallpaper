@@ -40,7 +40,7 @@ def download_pictures():
             files = glob.glob(r'*.jpg')
             files.sort()
 
-            imageurl = r'http://www.bing.com' + d[u'images'][req_idx][u'url']
+            imageurl = d[u'images'][req_idx][u'url']
             logger.debug(u'image url <%s>\n' % imageurl)
             logger.info(u'copyright: {}\n'.format(
                 d[u'images'][req_idx][u'copyright']).encode('utf8'))
